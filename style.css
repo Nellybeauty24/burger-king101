@@ -1,0 +1,256 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: verdana;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+
+}
+
+nav>div a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+nav>div a:hover {
+    color: rgb(66, 63, 63);
+    font-size: 19px;
+
+
+}
+button:hover{
+    background-color: #e98f73;
+    transform:scale(1.1);
+
+}
+
+.div2 button:hover{
+    background-color: #e98f73;
+    transform:scale(1.1);
+}
+
+.div1 {
+    width: 600px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div2 {
+    width: 240px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.div2>button {
+    background-color: #D84F24;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 8.06px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+
+}
+
+.section1 {
+    background-image: url('images/burger\ king\ imgs.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: blue;
+    padding-right: 50%;
+    
+
+
+}
+.div3{
+    height: 120px;
+   font-size: 14px;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   word-spacing: 5px;
+   text-align: left;
+   
+
+}
+
+section > div h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+ section > div button{
+    margin-top: 30px;
+    width: 200px;
+    background-color: #D84F24;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+ } 
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    height: 100vh
+
+}
+.div6{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+}
+.div4{
+    background-image: url(images/pizza\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 100%;
+    
+
+}
+.div7{
+    background-image: url(images/small\ chops.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 290px;
+    
+
+}
+.div8{
+    background-image: url(images/cake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:290px;
+    
+
+}
+.text-container1{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   word-spacing: 5px;
+   text-align: left;
+   padding: 30px;
+   color: white;
+   font-weight: 900;
+}
+.section2  h3{
+    font-size: 15px;
+
+}
+.section3{
+    width: 100%;
+    height:100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.div9{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+   
+
+
+}
+.div10{
+    height: 150px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+}
+.div11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+.div13{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    font-size: 13px;
+
+    
+}
+
+.section3 > div h1 {
+    font-size: 20px;
+
+}
+
+.div10 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div13 img:hover{
+    transform:scale(1.02);
+}
+
+.div8:hover{
+    transform:scale(1.02);
+}
+
+.div6:hover{
+    transform:scale(1.02);
+}
+
+.div7:hover{
+    transform:scale(1.02);
+}
+
+
